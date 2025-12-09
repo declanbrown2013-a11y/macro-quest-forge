@@ -1,3 +1,4 @@
+import OnboardingQuiz from "@/pages/Onboarding";
 import React, { useState, useEffect } from "react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
@@ -198,4 +199,4 @@ const App = () => {
 };
 
 export default App;
-import OnboardingQuiz from "@/pages/Onboarding";
+
