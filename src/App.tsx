@@ -18,7 +18,7 @@ import SubscriptionPage from "@/pages/Subscription";
 import NotFound from "@/pages/NotFound";
 
 import useUserStore from "@/store/userStore";
-import { supabase } from "../supabaseClient";
+import { supabase } from "./supabaseClient";
 
 const SimpleAuth = ({ onDone }: { onDone: () => void }) => {
   const [email, setEmail] = useState("");
