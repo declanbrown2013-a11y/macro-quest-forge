@@ -198,3 +198,4 @@ const App = () => {
 };
 
 export default App;
+import OnboardingQuiz from "@/pages/Onboarding";
