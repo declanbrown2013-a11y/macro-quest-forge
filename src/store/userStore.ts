@@ -75,7 +75,7 @@ const initialSubscription: SubscriptionInfo = {
   status: null,
 };
 
-export const useUserStore = create<UserState>()(
+import { useUserStore } from "@/store/userStore";
   persist(
     (set, get) => ({
       currentStep: 0,
